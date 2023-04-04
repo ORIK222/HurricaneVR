@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using RootMotion.Dynamics;
 using UnityEngine;
 
 namespace EmeraldAI.Example
@@ -14,6 +15,9 @@ namespace EmeraldAI.Example
 
         private void OnCollisionEnter(Collision collision)
         {
+            if(collision.collider.attachedRigidbody.GetComponent<MuscleCollisionBroadcaster>() != null)
+                print(collision.collider.name);
+            
             //Damages an AI to the collided object
             if (collision.gameObject.GetComponent<EmeraldAISystem>() != null)
             {
