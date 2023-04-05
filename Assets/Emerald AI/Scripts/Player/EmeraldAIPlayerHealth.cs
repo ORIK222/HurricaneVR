@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using EmeraldAI.CharacterController;
+using Main.Scripts;
 
 namespace EmeraldAI.Example
 {
@@ -13,6 +14,8 @@ namespace EmeraldAI.Example
     /// </summary>
     public class EmeraldAIPlayerHealth : MonoBehaviour
     {
+        [SerializeField] private HealthBar _healthBar;
+
         public int CurrentHealth = 100; [Space]
         public UnityEvent DamageEvent;
         public UnityEvent DeathEvent;
@@ -23,6 +26,9 @@ namespace EmeraldAI.Example
         private void Start()
         {
             StartingHealth = CurrentHealth;
+            
+            _healthBar.SetMaxHealth(StartingHealth);
+            _healthBar.SetCurrentHealth(CurrentHealth);
         }
 
         public void DamagePlayer (int DamageAmount)
@@ -34,6 +40,8 @@ namespace EmeraldAI.Example
             {
                 PlayerDeath();
             }
+
+            _healthBar.SetCurrentHealth(CurrentHealth);
         }
 
         public void PlayerDeath ()
