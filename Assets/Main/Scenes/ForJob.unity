@@ -3692,7 +3692,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 222966759229340422, guid: 37737cff1a9d6214b8868b76668431dc, type: 3}
       propertyPath: TabNumber
-      value: 1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 222966759229340422, guid: 37737cff1a9d6214b8868b76668431dc, type: 3}
       propertyPath: Attack2Animation
@@ -3712,7 +3712,7 @@ PrefabInstance:
       objectReference: {fileID: -203655887218126122, guid: 84238d0f774c71146af0360f85f0d430, type: 3}
     - target: {fileID: 222966759229340422, guid: 37737cff1a9d6214b8868b76668431dc, type: 3}
       propertyPath: AnimationsUpdated
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 222966759229340422, guid: 37737cff1a9d6214b8868b76668431dc, type: 3}
       propertyPath: AnimationTabNumber
@@ -15706,7 +15706,7 @@ PrefabInstance:
     - target: {fileID: 3678030815536871302, guid: 957206ca5c587499aaebdab02d29517a, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 1707c44b9d832f0408fccdc3623aada2, type: 2}
+      objectReference: {fileID: 9100000, guid: f543387208113204eb98bc3a00de7487, type: 2}
     - target: {fileID: 3775070113822811381, guid: 957206ca5c587499aaebdab02d29517a, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -15749,7 +15749,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5044370422163107261, guid: 957206ca5c587499aaebdab02d29517a, type: 3}
       propertyPath: TabNumber
-      value: 1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5044370422163107261, guid: 957206ca5c587499aaebdab02d29517a, type: 3}
       propertyPath: WalkSpeed
@@ -15981,7 +15981,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5044370422163107261, guid: 957206ca5c587499aaebdab02d29517a, type: 3}
       propertyPath: AnimationListsChanged
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5044370422163107261, guid: 957206ca5c587499aaebdab02d29517a, type: 3}
       propertyPath: Attack1AnimationSpeed
@@ -16238,7 +16238,7 @@ PrefabInstance:
     - target: {fileID: 5044370422163107261, guid: 957206ca5c587499aaebdab02d29517a, type: 3}
       propertyPath: AttackAnimationList.Array.data[0].AnimationClip
       value: 
-      objectReference: {fileID: -203655887218126122, guid: d83a4ba4d0767a846a6e423efd38d507, type: 3}
+      objectReference: {fileID: 7400000, guid: e95e7ff764b47f14f97806e959e56ef8, type: 2}
     - target: {fileID: 5044370422163107261, guid: 957206ca5c587499aaebdab02d29517a, type: 3}
       propertyPath: AttackAnimationList.Array.data[1].AnimationClip
       value: 
@@ -17468,7 +17468,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5044370422163107261, guid: 957206ca5c587499aaebdab02d29517a, type: 3}
       propertyPath: AnimationListsChanged
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5044370422163107261, guid: 957206ca5c587499aaebdab02d29517a, type: 3}
       propertyPath: Attack1AnimationSpeed
@@ -17725,7 +17725,7 @@ PrefabInstance:
     - target: {fileID: 5044370422163107261, guid: 957206ca5c587499aaebdab02d29517a, type: 3}
       propertyPath: AttackAnimationList.Array.data[0].AnimationClip
       value: 
-      objectReference: {fileID: -203655887218126122, guid: d83a4ba4d0767a846a6e423efd38d507, type: 3}
+      objectReference: {fileID: 7400018, guid: 257e8e72f74ea4ad6b5e51374ad4b96f, type: 3}
     - target: {fileID: 5044370422163107261, guid: 957206ca5c587499aaebdab02d29517a, type: 3}
       propertyPath: AttackAnimationList.Array.data[1].AnimationClip
       value: 
