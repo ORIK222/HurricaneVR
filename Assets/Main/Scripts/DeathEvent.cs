@@ -1,5 +1,6 @@
 using System.Collections;
 using HurricaneVR.Framework.Core.Player;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -9,6 +10,7 @@ namespace Main.Scripts
     {
         [SerializeField] private CharacterController _characterController;
         [SerializeField] private HVRScreenFade _screenFade;
+        [SerializeField] private TextMeshProUGUI _diedText;
 
         public void OnDeath()
         {
@@ -29,6 +31,7 @@ namespace Main.Scripts
         {
             StopCoroutine(nameof(GotHit));
             _screenFade.Fade(1, 1);
+            _diedText.gameObject.SetActive(true);
             yield return new WaitForSeconds(3f);
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
